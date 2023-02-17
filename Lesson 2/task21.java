@@ -9,30 +9,30 @@
 // Выходная строка:
 // select * from students where name = "Ivanov" and country = "Russia" and city = "Moscow"
 
-// public class task21 {
-//     public static void main(String[] args) {
-//         String strDir = "{\"name\" : \"Ivanov\",\"country\": \"Russia\",\"city\": \"Moscow\",\"age\": \"null\"}";
-//         String strCl = strDir.replace("{", "").replace("}", "")
-//                 .replace("\"", "");
-//         StringBuilder string = new StringBuilder();
-//         StringBuilder finalStr = new StringBuilder();
-//         String[] newStr = strCl.split(",");
-//         System.out.print("select * from students where ");
-//         String t1 = "null";
+/*public class task21 {
+    public static void main(String[] args) {
+        String strDir = "{\"name\" : \"Ivanov\",\"country\": \"Russia\",\"city\": \"Moscow\",\"age\": \"null\"}";
+        String strCl = strDir.replace("{", "").replace("}", "")
+                .replace("\"", "");
+        StringBuilder string = new StringBuilder();
+        StringBuilder finalStr = new StringBuilder();
+        String[] newStr = strCl.split(",");
+        System.out.print("select * from students where ");
+        String t1 = "null";
 
-//         for (String string2 : newStr) {
-//             String[] string3 = string2.split(": ");
-//             String t2 = string3[1];
-//             if (t2 != t1){
-//                 System.out.printf("%s = \"%s\"; ", string3[0], string3[1]);
-//             // } else if (string3[1] == t1){
-//             //     System.out.print(";");
-//             // }
-//             //System.out.printf("%s = %s; ", string3[0], string3[1]);
-//             }
-//         }
-//     }
-// }
+        for (String string2 : newStr) {
+            String[] string3 = string2.split(": ");
+            String t2 = string3[1];
+            if (t2 != t1){
+                System.out.printf("%s = \"%s\"; ", string3[0], string3[1]);
+            // } else if (string3[1] == t1){
+            //     System.out.print(";");
+            // }
+            //System.out.printf("%s = %s; ", string3[0], string3[1]);
+            }
+        }
+    }
+}*/
 
 
 public class task21 {
